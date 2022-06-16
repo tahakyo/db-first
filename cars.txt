@@ -1,0 +1,16 @@
+Macchine usate
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+marca - VARCHAR(15) - NOTNULL - UNIQUE
+modello - VARCHAR(15) - NOTNULL - 
+telaio - VARCHAR(17) - NULL - UNIQUE
+colore - VARCHAR(10) - NOTNULL
+motore  - VARCHAR(10) - NOTNULL
+cambio  - VARCHAR(10) - NOTNULL
+tipologia - VARCHAR(10) - NOTNULL
+numero di porte - TINYINT - NOTNULL
+posti - TINYINT - NOTNULL
+immatricolazioe - VARCHAR(10) - NOTNULL -UNIQUE
+data diagnosi - DATE - NULL
+data interventi - DATE - NULL
+prezzo - UNSIGNED - MEDIUMINT - NULL
